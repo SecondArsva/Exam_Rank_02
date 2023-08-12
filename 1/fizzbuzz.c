@@ -6,7 +6,7 @@
 /*   By: davidga2 <davidga2@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/11 14:53:14 by davidga2          #+#    #+#             */
-/*   Updated: 2023/08/11 15:11:40 by davidga2         ###   ########.fr       */
+/*   Updated: 2023/08/12 17:15:16 by davidga2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_write_num(int num)
 	write (1, &str[num % 10], 1);
 }
 
-int main(void)
+int	main(void)
 {
 	int num = 1;
 
