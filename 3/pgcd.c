@@ -6,7 +6,7 @@
 /*   By: davidga2 <davidga2@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/27 22:24:57 by davidga2          #+#    #+#             */
-/*   Updated: 2023/08/27 23:25:37 by davidga2         ###   ########.fr       */
+/*   Updated: 2023/08/28 03:20:37 by davidga2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,7 @@ int main(int argc, char **argv)
 			else
 				prime++;
 		}
-		if (mcd > 1)
-			printf("%i", mcd);
-		else if (mcd == 1)
+		if (mcd >= 1)
 			printf("%i", mcd);
 	}
 	return (printf("\n"), 0);
